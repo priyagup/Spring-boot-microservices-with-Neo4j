@@ -5,7 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProductCatalog {
 	
-	private String name; 
+	private String name;
+	private String type;
+	private String price;
 	private String discounted_price;
 	private String session;
 	private Integer percentage;
@@ -36,6 +38,18 @@ public class ProductCatalog {
 	}
 	public void setPercentage(Integer percentage) {
 		this.percentage = percentage;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
 	}
 
 	
