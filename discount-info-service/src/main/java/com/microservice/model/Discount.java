@@ -1,10 +1,13 @@
 package com.microservice.model;
 
+import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
 
 @NodeEntity("Discount_filter")
 public class Discount {
 	
+	@Id
+	private Long id;
 	private Integer percentage;
 	private String session;
 	
