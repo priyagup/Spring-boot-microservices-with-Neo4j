@@ -13,4 +13,25 @@ Neo4J Database Stucture:
 > Women_Clothing
 ![ Women_Clothing]( https://github.com/priyagup/Spring-boot-microservices-with-Neo4j/blob/master/Neo4J%20Data/Women_Clothing.PNG)
 
+- Node 3: Women_Shoes with the filed: nam, price
+
+> Women_Shoes
+![ Women_Shoes]( https://github.com/priyagup/Spring-boot-microservices-with-Neo4j/blob/master/Neo4J%20Data/Women_Shoes.PNG)
+
+- Node 4: Discounted is the relationship node with one filed which is price and that is calculated after giving the discount as per the discount percentage.
+
+> Discounted
+![ Discounted]( https://github.com/priyagup/Spring-boot-microservices-with-Neo4j/blob/master/Neo4J%20Data/Discounted.PNG)
+
+
+- Relationship between Node 1 and Node 2
+
+> Relationship
+![ Relationship]( https://github.com/priyagup/Spring-boot-microservices-with-Neo4j/blob/master/Neo4J%20Data/Relationship.PNG)
+
+> Graph
+
+
+
+
 
