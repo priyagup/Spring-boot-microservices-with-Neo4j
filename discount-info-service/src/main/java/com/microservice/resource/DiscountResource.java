@@ -23,9 +23,9 @@ public class DiscountResource {
 	@Autowired
 	DiscountService discountService;
 	
-	@GetMapping("/{session}")
-	public Collection<Discount> getAll(@PathVariable("session") String session){
-		return discountService.getAll(session);
+	@GetMapping
+	public Collection<Discount> getAll(){
+		return discountService.getAll();
 	}
 	
 }
