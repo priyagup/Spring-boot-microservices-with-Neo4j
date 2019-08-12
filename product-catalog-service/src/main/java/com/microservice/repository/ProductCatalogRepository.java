@@ -14,7 +14,7 @@ import com.microservice.model.WomenClothing;
 
 public interface ProductCatalogRepository extends Neo4jRepository<ProductCatalog, Long> {
 
-	@Query("MATCH (w:wo)-[d.Discounted]->(f:dis) return w,d,f")
+	@Query("MATCH (w:wo)-[d.DISCOUNTED]->(f:dis) return w,d,f")
 	Collection<ProductCatalog> getAllDiscount(Discount dis, WomenClothing wo);
 
 	

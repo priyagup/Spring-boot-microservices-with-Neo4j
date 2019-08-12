@@ -2,8 +2,10 @@ package com.microservice.model;
 
 import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
+import org.springframework.stereotype.Component;
 
 @NodeEntity("Women_Clothing")
+@Component
 public class WomenClothing {
 	
 	@Id
