@@ -15,6 +15,9 @@ public class ProductCatalog {
 	public ProductCatalog() {
 		
 	}
+	
+
+
 	public String getName() {
 		return name;
 	}
