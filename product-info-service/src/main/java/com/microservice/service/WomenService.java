@@ -14,9 +14,17 @@ public class WomenService {
 	@Autowired
 	WomenRepository womenRepository;
 
-	public Collection<WomenClothing> getAll() {
+	public Collection<WomenClothing> getAll(String type) {
 		// TODO Auto-generated method stub
-		return womenRepository.getAllClothing();
+		
+		  if(type.compareTo("Dress") ==0) { return womenRepository.getAllDress(); } else
+		  if(type.compareTo("Jeans") ==0) { return womenRepository.getAllJeans(); } else
+		  if(type.compareTo("All") ==0) {
+		 
+			return womenRepository.getAllDress();
+		}
+		return null;
+		
 	}
 
 

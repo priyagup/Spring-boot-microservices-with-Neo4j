@@ -2,7 +2,9 @@ package com.microservice.model;
 
 import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
+import org.springframework.stereotype.Component;
 
+@Component
 @NodeEntity("Women_Clothing")
 public class WomenClothing {
 	
@@ -10,6 +12,7 @@ public class WomenClothing {
 	private Long id;
 	private String name;
 	private String price;
+	private String type;
 
 	public WomenClothing(){
 		
@@ -25,6 +28,12 @@ public class WomenClothing {
 	}
 	public void setPrice(String price) {
 		this.price = price;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
 	}
 	
 	

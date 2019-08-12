@@ -13,7 +13,7 @@ public class DiscountService {
 	@Autowired
 	DiscountRepository discountRepository;
 	
-	public Collection<Discount> getAll() {
+	public Collection<Discount> getAll(String session) {
 		// TODO Auto-generated method stub
 		return discountRepository.getAllDiscountSession();
 	}
