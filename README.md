@@ -29,7 +29,6 @@ Neo4J Database Stucture:
 > Relationship
 ![ Relationship]( https://github.com/priyagup/Spring-boot-microservices-with-Neo4j/blob/master/Neo4J%20Data/Relationship.PNG)
 
-> Graph
 
 
 
